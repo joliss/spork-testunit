@@ -6,9 +6,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tim Harper"]
-  s.date = %q{2009-09-12}
   s.default_executable = %q{testdrb}
-  s.description = %q{Test Unit runner for spork}
+  s.description = %q{Test::Unit runner for Spork}
   s.email = ["timcharper+spork@gmail.com"]
   s.executables = ["testdrb"]
   s.extra_rdoc_files = [
@@ -18,12 +17,12 @@ Gem::Specification.new do |s|
     "bin/testdrb",
      "lib/spork/test_framework/test_unit.rb"
   ]
-  s.homepage = %q{http://github.com/timcharper/spork-testunit}
+  s.homepage = %q{http://github.com/sporkrb/spork-testunit}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{spork-testunit}
   s.rubygems_version = %q{1.3.4}
-  s.summary = %q{spork-testunit}
+  s.summary = %q{Test::Unit runner for Spork}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
